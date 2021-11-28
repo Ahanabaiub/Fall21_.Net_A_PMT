@@ -25,6 +25,7 @@ namespace BLL.Services
             {
                 c.CreateMap<Project, ProjectM>();
                 c.CreateMap<Group, GroupM>();
+                c.CreateMap<Group_members, GroupMemberM>();
             });
             var mapper = new Mapper(config);
             var da = DataAccessFactory.ProjectDataAcees();
