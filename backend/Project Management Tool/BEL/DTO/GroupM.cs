@@ -12,5 +12,7 @@ namespace BEL.DTO
         public int id { get; set; }
         public string name { get; set; }
         public Nullable<int> project_id { get; set; }
+
+        public virtual ICollection<GroupMemberM> Group_members { get; set; }
     }
 }

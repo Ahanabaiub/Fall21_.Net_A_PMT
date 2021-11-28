@@ -1,0 +1,78 @@
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Project Management Tool.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csc.rsp
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\csi.rsp
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Managed.Core.targets
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.AppContext.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Collections.Immutable.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Console.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Globalization.Calendars.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Compression.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Net.Http.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Net.Sockets.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Reflection.Metadata.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.ValueTuple.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XmlDocument.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\vbc.rsp
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\BEL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\BLL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Net.Http.Formatting.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Web.Http.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Web.Http.WebHost.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\AutoMapper.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\DAL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\EntityFramework.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\BEL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\BLL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Net.Http.Formatting.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Web.Http.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\System.Web.Http.WebHost.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\AutoMapper.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\DAL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\DAL.dll.config
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\bin\EntityFramework.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.AssemblyReference.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CoreCompileInputs.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CopyComplete
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.pdb

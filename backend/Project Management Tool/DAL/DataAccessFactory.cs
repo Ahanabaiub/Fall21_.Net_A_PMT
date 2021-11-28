@@ -28,7 +28,7 @@ namespace DAL
         {
             return new GroupRepo(db);
         }
-        public static IRepository<Group_members, int> GroupMemeberDataAcees()
+        public static GroupMemberRepo GroupMemeberDataAcees()
         {
             return new GroupMemberRepo(db);
         }

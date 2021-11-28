@@ -1,0 +1,16 @@
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\BLL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\BLL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\AutoMapper.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\BEL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\DAL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\EntityFramework.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\BEL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\DAL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\DAL.dll.config
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\AutoMapper.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\bin\Debug\EntityFramework.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\obj\Debug\BLL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\BLL\obj\Debug\BLL.pdb

@@ -49,39 +49,72 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Group.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Group_members.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="member_application.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
     <Compile Include="PMT.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PMT.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMT.tt</DependentUpon>
     </Compile>
     <Compile Include="PMT.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PMT.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Project.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="PMT.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PMT.Designer.cs</LastGenOutput>
-    </EntityDeploy>
+    <Compile Include="Repository\GroupMemberRepo.cs" />
+    <Compile Include="Repository\GroupRepo.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\MemberApplicationRepo.cs" />
+    <Compile Include="Repository\ProjectRepo.cs" />
+    <Compile Include="Role.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>PMT.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
+    <EntityDeploy Include="PMT.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PMT.Designer.cs</LastGenOutput>
+    </EntityDeploy>
     <None Include="PMT.edmx.diagram">
       <DependentUpon>PMT.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PMT.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>PMT.Context.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="PMT.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMT.edmx</DependentUpon>
+      <LastGenOutput>PMT.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="PMT.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMT.edmx</DependentUpon>
+      <LastGenOutput>PMT.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

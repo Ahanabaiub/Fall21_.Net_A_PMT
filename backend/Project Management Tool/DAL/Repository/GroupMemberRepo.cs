@@ -44,5 +44,11 @@ namespace DAL.Repository
         {
             return db.Group_members.FirstOrDefault(e => e.id == id);
         }
+
+
+        public List<Group_members> getGroupMembersByGrpId(int grp_id)
+        {
+            return db.Group_members.Where(e=>e.group_id==grp_id).ToList();
+        }
     }
 }

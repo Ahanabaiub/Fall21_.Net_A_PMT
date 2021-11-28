@@ -8,9 +8,9 @@ namespace DAL.Repository
 {
     public class ProjectRepo : IRepository<Project, int>
     {
-        PMEntities db;
+        PMTEntities db;
 
-        public ProjectRepo(PMEntities db)
+        public ProjectRepo(PMTEntities db)
         {
             this.db = db;
         }

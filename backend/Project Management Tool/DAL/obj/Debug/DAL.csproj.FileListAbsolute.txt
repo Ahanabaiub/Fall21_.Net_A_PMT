@@ -1,0 +1,10 @@
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\bin\Debug\DAL.dll.config
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\bin\Debug\DAL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\bin\Debug\DAL.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\bin\Debug\EntityFramework.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\bin\Debug\EntityFramework.xml
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\obj\Debug\DAL.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\DAL\obj\Debug\DAL.pdb
