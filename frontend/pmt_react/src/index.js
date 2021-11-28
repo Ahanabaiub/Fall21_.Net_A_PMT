@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
+import Home from './Components/Home';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <h1>This is Home Page</h1>
+      <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );

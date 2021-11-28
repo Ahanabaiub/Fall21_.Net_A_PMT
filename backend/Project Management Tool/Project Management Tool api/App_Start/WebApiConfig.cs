@@ -11,6 +11,8 @@ namespace Project_Management_Tool_api
         {
             // Web API configuration and services
 
+            config.EnableCors();
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 

@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Project_Management_Tool_api.Controllers
 {
+    [EnableCors("http://localhost:3000", "*", "*")]
     public class ProjectController : ApiController
     {
         [Route("api/project/All")]

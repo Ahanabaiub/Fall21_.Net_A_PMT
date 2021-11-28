@@ -76,3 +76,6 @@ E:\projects\.net react project management tool\backend\Project Management Tool\P
 E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\obj\Debug\Project Management Tool api.csproj.CopyComplete
 E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\obj\Debug\Project Management Tool api.dll
 E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\obj\Debug\Project Management Tool api.pdb
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\bin\System.Web.Cors.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\bin\System.Web.Http.Cors.dll
+E:\projects\.net react project management tool\backend\Project Management Tool\Project Management Tool api\bin\System.Web.Http.Cors.xml
