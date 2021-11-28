@@ -44,5 +44,12 @@ namespace DAL.Repository
         {
             return db.Projects.FirstOrDefault(e => e.id == id);
         }
+
+       /* public void changeStatus(int id,int status)
+        {
+
+            var project = db.Projects.FirstOrDefault(e => e.id == id);
+           
+        }*/
     }
 }

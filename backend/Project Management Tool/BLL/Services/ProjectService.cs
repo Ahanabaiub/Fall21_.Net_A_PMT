@@ -13,6 +13,7 @@ namespace BLL.Services
     {
         enum projectStatus
         {
+            none,
             Open,
             InProgress,
             Complete,
@@ -38,6 +39,8 @@ namespace BLL.Services
             var config = new MapperConfiguration(c =>
             {
                 c.CreateMap<Project, ProjectM>();
+                c.CreateMap<Group, GroupM>();
+                c.CreateMap<Group_members, GroupMemberM>();
 
             });
             var mapper = new Mapper(config);
@@ -51,7 +54,9 @@ namespace BLL.Services
             s.status = (int)projectStatus.Open;
             var config = new MapperConfiguration(c =>
             {
-                c.CreateMap<ProjectM, Project>();
+                c.CreateMap<Project, ProjectM>();
+                c.CreateMap<Group, GroupM>();
+                c.CreateMap<Group_members, GroupMemberM>();
 
 
             });
@@ -65,12 +70,51 @@ namespace BLL.Services
             var project = Get(id);
             var group = GroupService.getGroupByProjectId(id);
             var countMember = GroupMemeberService.GetAllMemnersByGrpId(group.id).Count;
+            //int st = (int)projectStatus.Open;
 
-
-            if(project.status == (int)projectStatus.Open)
+            if (project.status == (int)projectStatus.Open && countMember>=3)
             {
+                project.status = (int)projectStatus.InProgress;
+                var config = new MapperConfiguration(c =>
+                {
+                    c.CreateMap<ProjectM, Project>();
+                    c.CreateMap<Group, GroupM>();
+                    c.CreateMap<Group_members, GroupMemberM>();
+
+
+                });
+                var mapper = new Mapper(config);
+                var data = mapper.Map<Project>(project);
+                DataAccessFactory.ProjectDataAcees().Edit(data);
                 return true;
             }
+
+            return false;
+        }
+
+        public static bool CompleteProject(int id)
+        {
+            var project = Get(id);
+
+            if(project.status == (int)projectStatus.InProgress)
+            {
+                project.status = (int)projectStatus.Complete;
+
+                var config = new MapperConfiguration(c =>
+                {
+                    c.CreateMap<ProjectM, Project>();
+                    c.CreateMap<Group, GroupM>();
+                    c.CreateMap<Group_members, GroupMemberM>();
+
+
+                });
+                var mapper = new Mapper(config);
+                var data = mapper.Map<Project>(project);
+                DataAccessFactory.ProjectDataAcees().Edit(data);
+
+                return true;
+            }
+
 
             return false;
         }

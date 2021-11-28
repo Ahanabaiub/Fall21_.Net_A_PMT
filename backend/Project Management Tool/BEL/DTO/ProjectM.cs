@@ -18,6 +18,6 @@ namespace BEL.DTO
         public System.DateTime deadline { get; set; }
         public Nullable<int> status { get; set; }
 
-        public virtual ICollection<GroupM> Groups { get; set; }
+       // public virtual ICollection<GroupM> Groups { get; set; }
     }
 }

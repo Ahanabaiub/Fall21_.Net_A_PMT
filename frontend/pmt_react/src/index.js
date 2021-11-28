@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import axios from 'axios';
 import Home from './Components/Home';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import NavMenu from './Components/NavMenu';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <h1>This is Home Page</h1>
-      <Home/>
+      <Router>
+        <div  style={{marginLeft:"12px"}}>
+          <NavMenu/>
+          <Home/>
+        </div>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

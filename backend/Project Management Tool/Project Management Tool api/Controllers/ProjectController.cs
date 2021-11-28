@@ -19,5 +19,21 @@ namespace Project_Management_Tool_api.Controllers
         {
             return ProjectService.Get();
         }
+
+        [Route("api/project/confirm")]
+        [HttpGet]
+        public bool Confirm(int id)
+        {
+            
+            return ProjectService.ConfirmProject(id);
+        }
+
+        [Route("api/project/complete")]
+        [HttpGet]
+        public bool Complete(int id)
+        {
+
+            return ProjectService.CompleteProject(id);
+        }
     }
 }
