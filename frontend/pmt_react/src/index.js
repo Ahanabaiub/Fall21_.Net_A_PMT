@@ -4,16 +4,26 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './Components/Home';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import NavMenu from './Components/NavMenu';
+import ProjectDetails from './Components/ProjectDetails';
 
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
         <div  style={{marginLeft:"12px"}}>
-          <NavMenu/>
-          <Home/>
+         
+          <p>Home page</p>
+          
+          {/* <Link to="project/5">Product</Link> */}
+          <Switch>
+              <Route exact path="/" component={Home} />
+              
+              <Route  path="/project/:id">
+                  <ProjectDetails />
+              </Route>
+          </Switch>
         </div>
       </Router>
   </React.StrictMode>,
